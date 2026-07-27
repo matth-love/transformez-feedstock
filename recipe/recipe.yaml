@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: transformez
-  version: "0.5.2"
+  version: "0.5.3"
   python_min: "3.12"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 63b37e42ce6a5499e20d824dac2865d7fdb482de75e67c12f41346ed6f777a19
+  sha256: 4f0b0dda8790db20e404bc4c7b60fe294a8db71bc7d8dfaa24568aa2b0cf03d8
 
 build:
   number: 0
